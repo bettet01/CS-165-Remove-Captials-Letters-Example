@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ "$#" -ne 2 ]; then 
+	echo "This program removes the upper case letters from input one and saves them in input two, both inputs are needed in order for the program to run."
+fi 
+
+./chngecaps <$1 > $2
